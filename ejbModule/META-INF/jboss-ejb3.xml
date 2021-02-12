@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss:ejb-jar
+  xmlns:jboss="http://www.jboss.com/xml/ns/javaee"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+  http://java.sun.com/xml/ns/javaee  http://xmlns.jcp.org/xml/ns/javaee/ejb-jar_3_2.xsd
+  http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-ejb3-2_0.xsd
+  "
+  xmlns:d="urn:delivery-active:1.1" version="3.2">
+  <assembly-descriptor>
+    <d:delivery>
+      <ejb-name>GenericMessageReceiver</ejb-name>
+      <d:active>false</d:active>
+    </d:delivery>
+  </assembly-descriptor>
+</jboss:ejb-jar>
